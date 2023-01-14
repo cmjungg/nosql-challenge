@@ -8,6 +8,8 @@
 
 # NoSQL_setup_finished.ipynb
 -Import Data
+mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+
 -Update Database
 	-Add new establishment
 	-Convert latitude and longitude to decimal
